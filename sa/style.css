@@ -1,0 +1,82 @@
+@charset "utf-8";
+/* CSS Document */
+body
+{
+background-color: #fff;
+color:#333;
+padding:0px;
+margin:0px;
+	font-family:sans-serif;
+	overflow-x:hidden;
+}
+.header
+{
+	background-color: #3c8dbc;
+	
+	background-image:url(images/topbanner.jpg);
+	background-repeat:no-repeat;
+	backface-size:100%;
+	min-height:200px;
+	color:#333;
+	overflow:hidden;
+	
+}
+.header  h1
+{
+	text-align:center;
+	font-size:2.5em;
+	margin:60px 0px;
+}
+.header  h1 small
+{
+	font-size:.4em;
+	
+}
+.searchBox
+{
+	
+	padding:8px 2px;margin-bottom:12px;
+}
+select , input[type="text"]
+{color: #666;
+  border-top-left-radius: 2px !important;
+  border-top-right-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+  border-bottom-left-radius: 2px !important;box-shadow: none;
+  background-color: #374850;
+  border: 1px solid transparent;
+  height: 35px;
+  -webkit-transition: all .3s cubic-bezier(.32, 1.25, .375, 1.15);
+  -o-transition: all .3s cubic-bezier(.32, 1.25, .375, 1.15);
+  transition: all .3s cubic-bezier(.32, 1.25, .375, 1.15);padding: 2px 12px;
+  font-size: 14px;
+}
+select:focus , input[type="text"]:focus
+{
+	background:#fff;
+}
+.intro p
+{
+	color:#222;
+	font-family:"Courier New", Courier, monospace;
+	text-align:center;font-weight:bold;
+	font-size:16px;
+}
+.RandomPicks
+{
+	background-color: #3c8dbc;
+	
+	background-image:url(images/random.jpg);
+	background-repeat:no-repeat;
+	backface-size:100%;
+	min-height:200px;
+	color:#333;
+	overflow:hidden;
+}
+.footerdiv
+{
+    background:#444;
+    padding:12px 0px;
+    color:#fff;
+    text-align:center;
+}
